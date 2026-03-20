@@ -1,0 +1,16 @@
+# crack-spread pipeline
+requests>=2.31
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.7
+tqdm>=4.66
+beautifulsoup4>=4.12   # per scraping URL SISEN (opzionale ma consigliato)
+lxml>=5.0              # parser veloce per bs4
+ruptures>=1.1.8        # change point detection (L3 BinSeg / L4 PELT in 02c)
+
+# ITS / ARIMAX (02d_v2, 02d_v3)
+statsmodels>=0.14      # OLS HAC Newey-West, ARIMA/SARIMAX
+
+# Opzionali (migliorano accuratezza EUR/USD)
+# yfinance>=0.2          # download EUR/USD daily da Yahoo Finance

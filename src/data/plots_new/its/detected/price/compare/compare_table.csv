@@ -1,0 +1,7 @@
+evento,carburante,V1 – Naïve OLS,V3 – ARIMA/ITS,V7 – Theil-Sen Bootstrap,V4 – PYMC,range_meur,mean_meur,sign_agree
+Hormuz (Feb 2026),benzina,38.7,30.8,29.7,17.0,9.000000000000004,33.06666666666667,✓
+Hormuz (Feb 2026),gasolio,44.3,-10.5,-24.1,-36.7,68.4,3.233333333333332,✗
+Iran-Israele (Giu 2025),benzina,30.6,30.6,39.0,29.7,8.399999999999999,33.4,✓
+Iran-Israele (Giu 2025),gasolio,141.5,81.3,126.2,145.7,60.2,116.33333333333333,✓
+Ucraina (Feb 2022),benzina,125.3,91.2,95.4,76.1,34.099999999999994,103.96666666666665,✓
+Ucraina (Feb 2022),gasolio,302.2,298.2,130.5,418.0,171.7,243.63333333333333,✓

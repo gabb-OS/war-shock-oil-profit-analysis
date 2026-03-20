@@ -1,0 +1,151 @@
+{
+  "_note": [
+    "Variazioni di accisa su benzina e gasolio auto dal 2015 ad oggi.",
+    "Le accise SISEN sono espresse in euro/1000L.",
+    "Ogni record ha: data_effettiva (quando il decreto entra in vigore),",
+    "  sisen_contaminata (il lunedì SISEN che riflette ancora la vecchia aliquota)",
+    "  sisen_corretta    (il lunedì SISEN che riflette già la nuova aliquota).",
+    "Il campo 'pending' indica eventi futuri/non ancora confermati in SISEN.",
+    "Fonte accise: SISEN/MASE CSV settimanale + GU decreti."
+  ],
+  "accisa_ordinaria": {
+    "_note": "Aliquote ordinarie pre-2022 (€/1000L)",
+    "benzina": 728.4,
+    "gasolio_auto": 617.4
+  },
+  "variazioni": [
+    {
+      "id": "DL_21_2022",
+      "decreto": "D.L. 21 marzo 2022 n. 21 (Governo Draghi)",
+      "tipo": "taglio",
+      "data_effettiva": "2022-03-22",
+      "sisen_contaminata": "2022-03-21",
+      "sisen_corretta": "2022-03-28",
+      "accisa_benz_per1000L": 478.4,
+      "accisa_gas_per1000L": 367.4,
+      "delta_benz_per1000L": -250.0,
+      "delta_gas_per1000L": -250.0,
+      "note": "Primo taglio emergenza energia; prorogato mese per mese fino a nov 2022 senza variazione di importo"
+    },
+    {
+      "id": "DL_153_2022",
+      "decreto": "D.L. 18 ottobre 2022 n. 153 (Governo Draghi) – proroga taglio accise",
+      "tipo": "taglio",
+      "data_effettiva": "2022-10-19",
+      "sisen_contaminata": "2022-10-17",
+      "sisen_corretta": "2022-10-24",
+      "accisa_benz_per1000L": 478.4,
+      "accisa_gas_per1000L": 367.4,
+      "delta_benz_per1000L": 0.0,
+      "delta_gas_per1000L": 0.0,
+      "note": "Proroga del taglio DL 21/2022 fino al 18 nov 2022; importo invariato (-250 €/1000L su entrambi). Delta zero: l'accisa non cambia ma il giorno cade a metà settimana SISEN — la correzione forward applica il tax_wedge del lunedì successivo."
+    },
+    {
+      "id": "DL_AIUTI_QUATER_2022",
+      "decreto": "D.L. 18 novembre 2022 n. 176 – Aiuti Quater (Governo Meloni)",
+      "tipo": "rimodulazione",
+      "data_effettiva": "2022-12-01",
+      "sisen_contaminata": "2022-11-28",
+      "sisen_corretta": "2022-12-05",
+      "accisa_benz_per1000L": 578.4,
+      "accisa_gas_per1000L": 467.4,
+      "delta_benz_per1000L": 100.0,
+      "delta_gas_per1000L": 100.0,
+      "note": "Riduzione del taglio di ~10 cent/L; valido fino al 31 dic 2022"
+    },
+    {
+      "id": "SCADENZA_2023",
+      "decreto": "Scadenza D.L. Aiuti Quater – ripristino aliquote ordinarie",
+      "tipo": "ripristino",
+      "data_effettiva": "2023-01-01",
+      "sisen_contaminata": "2022-12-26",
+      "sisen_corretta": "2023-01-09",
+      "accisa_benz_per1000L": 728.4,
+      "accisa_gas_per1000L": 617.4,
+      "delta_benz_per1000L": 150.0,
+      "delta_gas_per1000L": 150.0,
+      "note": "Il 01-01 è domenica: il SISEN 2022-12-26 riflette ancora le vecchie aliquote; il SISEN 2023-01-01 (domenica anomala) pure; il primo lunedì corretto è 2023-01-09"
+    },
+    {
+      "id": "RIFORMA_ACCISE_2025_FASE1",
+      "decreto": "D.Lgs. 26 feb 2024 n. 41 – Riordino accise, Fase 1 (convergenza benzina/gasolio)",
+      "tipo": "riforma_strutturale",
+      "data_effettiva": "2025-05-12",
+      "sisen_contaminata": "2025-05-12",
+      "sisen_corretta": "2025-05-19",
+      "accisa_benz_per1000L": 713.4,
+      "accisa_gas_per1000L": 632.4,
+      "delta_benz_per1000L": -15.0,
+      "delta_gas_per1000L": 15.0,
+      "note": "Prima fase della convergenza delle aliquote: benzina scende di 15, gasolio sale di 15. Accertato da SISEN; la data effettiva esatta del decreto è la settimana del 12-18 mag 2025"
+    },
+    {
+      "id": "RIFORMA_ACCISE_2026_FASE2",
+      "decreto": "D.Lgs. 26 feb 2024 n. 41 – Riordino accise, Fase 2 (aliquota unica)",
+      "tipo": "riforma_strutturale",
+      "data_effettiva": "2026-01-01",
+      "sisen_contaminata": "2025-12-29",
+      "sisen_corretta": "2026-01-05",
+      "accisa_benz_per1000L": 672.9,
+      "accisa_gas_per1000L": 672.9,
+      "delta_benz_per1000L": -40.5,
+      "delta_gas_per1000L": 40.5,
+      "note": "Seconda fase: aliquota unica 672.9 per entrambi i carburanti da gennaio 2026"
+    },
+    {
+      "id": "DL_33_2026",
+      "decreto": "D.L. 18 marzo 2026 n. 33 (Governo Meloni) + D.L. 3 apr 2026 n. 42 (proroga)",
+      "tipo": "taglio",
+      "data_effettiva": "2026-03-19",
+      "sisen_contaminata": "2026-03-16",
+      "sisen_corretta": "2026-03-23",
+      "accisa_benz_per1000L": 472.9,
+      "accisa_gas_per1000L": 472.9,
+      "delta_benz_per1000L": -200.0,
+      "delta_gas_per1000L": -200.0,
+      "note": "DL 33: dal 19-mar al 7-apr 2026; DL 42: proroga stesso importo dall'8-apr al 1-mag 2026; nessuna variazione di aliquota tra i due decreti"
+    },
+    {
+      "id": "PROROGA_CdM_20260430_BENZINA",
+      "decreto": "CdM 30 aprile 2026 – proroga rimodulata",
+      "tipo": "rimodulazione",
+      "data_effettiva": "2026-05-02",
+      "sisen_contaminata": "2026-04-27",
+      "sisen_corretta": null,
+      "accisa_benz_per1000L": 678.4,
+      "accisa_gas_per1000L": 417.4,
+      "delta_benz_per1000L": 205.5,
+      "delta_gas_per1000L": -55.5,
+      "pending": true,
+      "note": "Benzina torna quasi a ordinario (-5 cent); gasolio taglia ulteriore (-20 cent da ordinario). Valido 2-mag / 10-mag 2026; il SISEN corretto non è ancora disponibile"
+    },
+    {
+      "id": "DM_MEF_20260511",
+      "decreto": "D.M. MEF previsto ~11 maggio 2026 (copertura extragettito IVA)",
+      "tipo": "proroga",
+      "data_effettiva": "2026-05-11",
+      "sisen_contaminata": null,
+      "sisen_corretta": null,
+      "accisa_benz_per1000L": 678.4,
+      "accisa_gas_per1000L": 417.4,
+      "delta_benz_per1000L": 0.0,
+      "delta_gas_per1000L": 0.0,
+      "pending": true,
+      "note": "Stesso importo proroga 11-22 mag 2026; nessun cambio di aliquota rispetto al 2-mag"
+    },
+    {
+      "id": "SCADENZA_20260522",
+      "decreto": "Scadenza prevista proroga – ripristino aliquote ordinarie 2026",
+      "tipo": "ripristino",
+      "data_effettiva": "2026-05-23",
+      "sisen_contaminata": null,
+      "sisen_corretta": null,
+      "accisa_benz_per1000L": 672.9,
+      "accisa_gas_per1000L": 672.9,
+      "delta_benz_per1000L": -5.5,
+      "delta_gas_per1000L": 255.5,
+      "pending": true,
+      "note": "Ripristino all'aliquota unica 672.9 (ordinario 2026). Data e importo possono variare se il governo emana ulteriori proroghe"
+    }
+  ]
+}

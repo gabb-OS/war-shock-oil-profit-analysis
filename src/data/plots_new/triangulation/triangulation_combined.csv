@@ -1,0 +1,7 @@
+n_models,n_valid,test_used,p_values,labels,median_hl,median_mean_extra,fisher_stat,fisher_p,stouffer_z,stouffer_p,n_reject_05,n_reject_01,vote_frac,combined_p_conservative,evento,carburante
+5,5,wilcox_p,"[0.130923, 0.280379, 0.000192, 0.156334, 0.408837]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",0.015166,0.013878,29.2259,0.001145,2.9046,0.001839,1,1,0.2,0.001839,Hormuz (Feb 2026),benzina
+5,5,wilcox_p,"[0.995601, 0.667739, 0.212875, 0.999671, 0.980287]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",-0.020726,-0.021498,3.9511,0.949525,-3.4539,0.999724,0,0,0.0,0.999724,Hormuz (Feb 2026),gasolio
+5,5,wilcox_p,"[0.0, 0.0, 0.0, 0.0, 0.0]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",0.019262,0.01886,,,,,5,5,1.0,1.0,Iran-Israele (Giu 2025),benzina
+5,5,wilcox_p,"[0.000319, 0.873254, 2e-06, 0.000302, 2.4e-05]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",0.023533,0.022514,80.1015,0.0,6.4306,0.0,4,4,0.8,0.0,Iran-Israele (Giu 2025),gasolio
+5,5,wilcox_p,"[2e-06, 2.5e-05, 4e-06, 3e-06, 3.1e-05]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",0.077192,0.07203,118.4933,0.0,9.6883,0.0,5,5,1.0,0.0,Ucraina (Feb 2022),benzina
+5,5,wilcox_p,"[0.174959, 0.163985, 0.05882, 0.202281, 0.110216]","['v1_naive', 'v3_arima', 'v5_causalimpact', 'v7_theilsen', 'v8_pymc']",0.027331,0.01745,20.3757,0.025893,2.476,0.006642,0,0,0.0,0.025893,Ucraina (Feb 2022),gasolio

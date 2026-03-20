@@ -1,0 +1,7 @@
+evento,carburante,shock,tau_L1,delta_eurl,p_bonf,extra_mean_eurl,gain_total_meur,gain_ci_low_meur,gain_ci_high_meur,n_days_post_tau,r2_baseline,slope_pre_eurl_day,consumo_ML_die
+Ucraina (Feb 2022),benzina,2022-02-24,2022-03-09,0.1335,0.0113,0.1317,71.1,45.7,69.0,45,0.236,-0.000375,12.0
+Ucraina (Feb 2022),gasolio,2022-02-24,2022-03-12,0.1597,1.0,0.1145,120.2,93.7,149.9,42,0.0,0.0,25.0
+Iran-Israele (Giu 2025),benzina,2025-06-13,2025-06-21,0.0261,0.3319,0.0201,13.0,10.2,16.1,54,0.0,0.0,12.0
+Iran-Israele (Giu 2025),gasolio,2025-06-13,2025-05-08,-0.0315,1.0,-0.0322,-78.9,-189.4,20.5,98,0.0,0.0,25.0
+Hormuz (Feb 2026),benzina,2026-02-28,2026-03-22,0.0764,0.0028,0.0789,9.5,6.7,8.0,10,0.228,-0.000311,12.0
+Hormuz (Feb 2026),gasolio,2026-02-28,2026-02-19,-0.0303,1.0,-0.0026,-2.7,-81.0,-10.6,41,0.401,-0.00078,25.0

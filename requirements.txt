@@ -1,0 +1,10 @@
+yfinance
+pymc
+pytensor
+statsmodels
+pandas
+numpy
+matplotlib
+scipy
+requests
+openpyxl

@@ -1,0 +1,7 @@
+﻿evento,shock,carburante,n_pre,n_post,mean_pre,mean_post,delta_mean,mw_p_onesided,mw_p_twosided,cliff_delta,cliff_interp,reject_h0,status
+Ucraina (Feb 2022),2022-02-24,benzina,44,60,0.18846,0.26156,0.0731,0.0,0.0,0.5455,large,True,RIFIUTO H₀
+Ucraina (Feb 2022),2022-02-24,gasolio,44,60,0.1571,0.20754,0.05045,0.0001,0.0003,0.4212,medium,True,RIFIUTO H₀
+Iran-Israele (Giu 2025),2025-06-13,benzina,46,60,0.23845,0.25883,0.02038,0.0,0.0,0.7406,large,True,RIFIUTO H₀
+Iran-Israele (Giu 2025),2025-06-13,gasolio,46,60,0.23154,0.21736,-0.01417,0.9959,0.0084,-0.3,small,False,NON RIFIUTO H₀
+Hormuz (Feb 2026),2026-02-28,benzina,32,60,0.2803,0.28324,0.00294,0.9379,0.1263,-0.1948,small,False,NON RIFIUTO H₀
+Hormuz (Feb 2026),2026-02-28,gasolio,32,60,0.22797,0.19182,-0.03615,1.0,0.0,-0.5188,large,False,NON RIFIUTO H₀
